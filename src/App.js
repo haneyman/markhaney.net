@@ -96,6 +96,16 @@ function Cabin() {
       <div className="div-button" onClick={() => { window.open("https://calendar.google.com/calendar/embed?src=c5k8fgk8j5tuoc69ncgahq4hmk%40group.calendar.google.com&ctz=America%2FLos_Angeles", "_blank") }}>
         Cabin Calendar
       </div>
+      <div className="div-button" onClick={() => { window.open("https://www.epicpass.com/account/my-account.aspx?ma_1=4", "_blank") }}>
+        My EPIC Reservations
+      </div>
+      <div className="div-button" onClick={() => { window.open("https://www.epicpass.com/plan-your-trip/lift-access/reservations.aspx", "_blank") }}>
+        Reserve
+      </div>
+      <div className="div-button" onClick={() => { window.open("https://www.skiheavenly.com/the-mountain/mountain-conditions/mountain-cams.aspx", "_blank") }}>
+        Heavenly Webcams
+      </div>
+	  
     </div>
 
   );
