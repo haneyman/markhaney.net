@@ -105,6 +105,9 @@ function Cabin() {
       <div className="div-button" onClick={() => { window.open("https://www.skiheavenly.com/the-mountain/mountain-conditions/mountain-cams.aspx", "_blank") }}>
         Heavenly Webcams
       </div>
+      <div className="div-button" onClick={() => { window.open("https://opensnow.com/user/favorites#mountains-forecasts", "_blank") }}>
+        OpenSnow 10 Day
+      </div>
 	  
     </div>
 
