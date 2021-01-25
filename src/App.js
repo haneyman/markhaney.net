@@ -90,6 +90,7 @@ function Job() {
 function Cabin() {
   return (
     <div className="div-buttons">
+      <Link to="/"  className="div-button">Home</Link>
       <div className="div-button" onClick={() => { window.open("https://ambientweather.net/dashboard/8c8ef06c0f8bebfee287bbe57b4c060f", "_blank") }}>
         Weather Dashboard
       </div>
@@ -101,6 +102,9 @@ function Cabin() {
       </div>
       <div className="div-button" onClick={() => { window.open("https://www.epicpass.com/plan-your-trip/lift-access/reservations.aspx", "_blank") }}>
         Reserve
+      </div>
+      <div className="div-button" onClick={() => { window.open("https://heimlink.heimvision.com/device/live?deviceId=xxxxS_a09f10d2d698&did=4671998&shareid=", "_blank") }}>
+        Cabin Webcam
       </div>
       <div className="div-button" onClick={() => { window.open("https://www.skiheavenly.com/the-mountain/mountain-conditions/mountain-cams.aspx", "_blank") }}>
         Heavenly Webcams
