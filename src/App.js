@@ -112,7 +112,9 @@ function Cabin() {
       <div className="div-button" onClick={() => { window.open("https://opensnow.com/user/favorites#mountains-forecasts", "_blank") }}>
         OpenSnow 10 Day
       </div>
-	  
+      <div className="div-button" onClick={() => { window.open("https://forecast.weather.gov/MapClick.php?zoneid=CAZ072", "_blank") }}>
+        NOAA
+      </div>
     </div>
 
   );
